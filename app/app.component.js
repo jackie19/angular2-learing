@@ -12,6 +12,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
  * Created by Jackie on 2016/8/23.
  */
 var core_1 = require('@angular/core');
+require('./rxjs-extensions');
 var AppComponent = (function () {
     function AppComponent() {
         this.title = 'Tour of Heroes';

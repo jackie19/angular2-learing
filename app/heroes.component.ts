@@ -1,7 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
 import {Hero} from './hero';
-import {HeroDetailComponent} from './hero-detail.component';
 import {HeroService} from './hero.service';
 
 @Component({
@@ -65,7 +64,6 @@ import {HeroService} from './hero.service';
       border-radius: 4px 0 0 4px;
     }
   `],
-    directives: [HeroDetailComponent],
     providers: [HeroService]
 })
 
